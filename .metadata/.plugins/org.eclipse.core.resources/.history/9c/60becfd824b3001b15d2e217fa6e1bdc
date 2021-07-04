@@ -1,0 +1,34 @@
+package logic;
+//1-2 +3-4 + 5-6 +7-8 = -3
+public class Series3 {
+
+	public static void main(String[] args) {
+		int n=4, num1=0,num2=0, count=0;
+		System.out.println("First " +n+ " numbers");
+
+		for(int i=1 ; i<=n ;i++) {
+			if(i%2==0)
+				num1=i-2;
+			else {
+				num2=i+2;
+			}
+			
+			int e=num1;
+			int o=num2;
+			count=o-e;//6
+			System.out.print(e);
+			System.out.print(o);
+			
+		}
+			
+			
+		//count= -(n/2);
+		System.out.println( "=" + (count) );	
+
+		}
+		
+		
+
+	}
+
+
